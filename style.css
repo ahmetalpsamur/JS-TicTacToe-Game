@@ -9,7 +9,15 @@
     
 }
 .div-container div[class^="div-container-"]{
+    display: grid;
     border: solid;
     border-width: 1px;
     cursor: pointer;
+    place-items: center;
+}
+.images-x,
+.images-o
+{
+    height: 35px;
+    width: 35px;
 }
